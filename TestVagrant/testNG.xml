@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestVagrant" parallel="methods" thread-count="2">
+		<test name="Test_Vagrant">
+				<packages>
+            <package name="com.build.rcb.test.*">
+            </package>
+        </packages>
+		
+		<classes>
+			<class name="com.build.rcb.test.RoyalchallengersBangalore">
+				<methods>
+					<include name="test1_ForeignPlayers" />
+				</methods>
+			</class>
+		</classes> 
+
+	</test>
+</suite> 
